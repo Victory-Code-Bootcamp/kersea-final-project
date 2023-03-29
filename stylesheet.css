@@ -1,0 +1,36 @@
+nav {
+    display: block; 
+}
+nav {
+  background-color:goldenrod;
+    padding: 5px;
+    overflow: hidden;
+  }
+  nav ul {
+    font-family: "Dancing Script", cursive;
+    margin: 0px;
+    font-weight: 900;
+    list-style-type: none;
+    float: right;
+    display:inline-flex;
+    text-decoration: none;
+  }
+  nav li {
+    position: sticky;
+    padding:10px ;
+  }
+  nav a::before {
+    content: "";
+    display: block;
+    height: 3px;
+    background-color: #78fd1f;
+    top: 0;
+    width: 0%;
+  }
+  nav a:hover::before {
+    width: 100%;
+    color: black;
+  }
+  nav a:visited {
+    color:rgb(247, 250, 72);
+  }

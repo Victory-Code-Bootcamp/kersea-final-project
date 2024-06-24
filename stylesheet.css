@@ -4,15 +4,23 @@
   position: fixed;
   position: sticky;
 }
+body{
+  background-color: #060707;
+}
 h1 {
-  text-align: center;}
+  text-align: center;
+color: white;
+font-family: "Dancing Script", cursive;}
 h3{
     text-align: center;
+    color: white;
+    font-family: "Dancing Script", cursive;
 }
   p{
     padding: 5px;
     text-indent:40px;
     font-family: "Dancing Script", cursive;
+    color: white;
   }
   ul {
     list-style-type: none;
@@ -20,7 +28,7 @@ h3{
     padding: 0;
   }
 nav {
-    background-color:#4ed4a1;
+    background-color:#e4cfa6;
    height:10rem;
    position: relative;
     text-decoration: none;
@@ -125,5 +133,5 @@ input[type=submit]:hover {
 .ytvideo {
   display: flex;
   justify-content: center;
-  
+
 }
